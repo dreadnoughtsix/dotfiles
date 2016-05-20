@@ -15,6 +15,11 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'tyru/restart.vim'
+Plugin 'vim-latex/vim-latex'
+Plugin 'Raimondi/delimitMate'
 
 " Colour Schemes
 Plugin 'jnurmine/Zenburn'
@@ -23,11 +28,7 @@ Plugin 'mkarmona/colorsbox'
 Plugin 'morhetz/gruvbox'
 Plugin 'freeo/vim-kalisi'
 Plugin 'tomasr/molokai'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plugin 'tyru/restart.vim'
-Plugin 'vim-latex/vim-latex'
-Plugin 'Raimondi/delimitMate'
+
 
 call vundle#end()
 filetype plugin indent on
