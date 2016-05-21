@@ -1,0 +1,41 @@
+# Increase volume with media volume key
+"amixer -q sset Master 1%+"
+   XF86AudioRaiseVolume
+
+# Decrease volume with media volume key
+"amixer -q sset Master 1%-"
+   XF86AudioLowerVolume
+
+# Mute volume
+"/home/cjcc/bin/toggle_mute.sh"
+   XF86AudioMute
+
+# Lock screen
+"sxlock"
+   Alt + Alt_R + l
+
+# Toggle touchpad on or off
+"synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')"
+   XF86TouchpadToggle
+
+# Show logout screen
+"lxsession-logout"
+   Control + grave
+
+# Open terminal with ThinkVantage button
+"konsole"
+   XF86Launch1
+
+# Mozilla Firefox shortcut
+"firefox"
+   Control + F3
+
+# Pidgin shortcut
+"pidgin"
+   Control + F4
+
+# Thunderbird shortcut
+"thunderbird"
+   Control + F5
+
+
