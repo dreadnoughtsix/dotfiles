@@ -11,8 +11,8 @@
    XF86AudioMute
 
 # Lock screen
-"sxlock"
-   Alt + Alt_R + l
+"xscreensaver-command --lock"
+   Alt + Alt_L + l
 
 # Toggle touchpad on or off
 "synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')"
@@ -38,4 +38,6 @@
 "thunderbird"
    Control + F5
 
-
+# Toggle dual screen
+"~/bin/toggle_dual_screen.sh"
+    XF86Display
