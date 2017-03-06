@@ -7,6 +7,6 @@ synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')
 xscreensaver -no-splash &
 xss-lock -- xscreensaver-command -lock &
 xbindkeys
+export QT_QPA_PLATFORMTHEME=qt5ct
 udisksvm -a >/dev/null &
-#exec startlxde 
 exec wmii
