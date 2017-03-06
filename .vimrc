@@ -101,8 +101,8 @@ let g:jellybeans_overrides = {
 \   'Comment': {'guifg': 'cccccc'},
 \   'background': {'ctermbg': 'none', '256ctermbg': 'none'},
 \}
-colorscheme jellybeans
-set guifont=Consolas\ 10
+colorscheme molokai
+set guifont=Monospace\ 9 
 
 " ============================================================================
 " PRINTING
