@@ -18,22 +18,6 @@
 "synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')"
    XF86TouchpadToggle
 
-# Show logout screen
-"lxsession-logout"
-   Control + grave
-
-# Mozilla Firefox shortcut
-"firefox"
-   Control + F3
-
-# Pidgin shortcut
-"pidgin"
-   Control + F4
-
-# Thunderbird shortcut
-"thunderbird"
-   Control + F5
-
 # Toggle dual screen
 "~/bin/toggle_dual_screen.sh"
     XF86Launch1
