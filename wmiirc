@@ -57,14 +57,14 @@ wmiir write /rules <<!
 
     # MPlayer and VLC don't float by default, but should.
     /MPlayer|VLC/ floating=on
-    /Clementine.*/ -> tags=4
+    /Clementine.*/ -> tags=0
     /Thunderbird.*/ -> tags=0
+    /Pidgin.*/ -> tags=0
 
     # ROX puts all of its windows in the same group, so they open
     # with the same tags.  Disable grouping for ROX Filer.
     /^ROX-Filer:/ group=0
 
-    /lxpanel.*/ -> tags=/.*/
 
     /.*/ -> tags=sel group=0
 !
@@ -242,6 +242,7 @@ Key $MODKEY-b	    # Move to the previous tag
 	wmiir xwrite /ctl view $(wi_tags | sort -r | wi_nexttag)
 Key $MODKEY-e       # Open pcmanfm
     dolphin &
+
 !
 	for i in 0 1 2 3 4 5 6 7 8 9; do
 		wi_events <<!
