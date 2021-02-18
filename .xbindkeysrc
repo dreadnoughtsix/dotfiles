@@ -21,3 +21,6 @@
 # Toggle dual screen
 "~/bin/toggle_dual_screen.sh"
     XF86Launch1
+
+"~/bin/toggle_dual_screen.sh"
+    Scroll_Lock

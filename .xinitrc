@@ -9,4 +9,8 @@ xss-lock -- xscreensaver-command -lock &
 xbindkeys
 export QT_QPA_PLATFORMTHEME=qt5ct
 udisksvm -a >/dev/null &
-exec wmii
+hsetroot -full ~/us_against_the_world.jpg
+
+#exec wmii
+#exec startxfce4
+#exec icewm-session
