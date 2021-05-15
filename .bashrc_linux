@@ -17,7 +17,7 @@ alias ls='ls -laIF'
 # Alias for zypper on openSUSE
 alias zypper='sudo zypper'
 # Alias for apt install on Linux Mint
-alias apt-in='sudo apt install'
+alias apt='sudo apt'
 alias clipd='xclip -sel clip'
 
 
